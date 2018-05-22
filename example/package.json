@@ -1,0 +1,31 @@
+{
+  "name": "aws-lambda-express-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "start": "node --require ts-node/register node_modules/serverless/bin/serverless offline"
+  },
+  "author": "LCHarold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LCHarold/aws-lambda-express/issues"
+  },
+  "homepage": "https://github.com/LCHarold/aws-lambda-express#readme",
+  "dependencies": {
+    "aws-lambda-express": "^1.0.0",
+    "express": "^4.16.3",
+    "lodash": "latest",
+    "pipeworks": "latest",
+    "serverless": "^1.27.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.109",
+    "@types/node": "^10.1.2",
+    "serverless-offline": "^3.23.0",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "ts-node": "^6.0.3",
+    "typescript": "^2.8.3"
+  }
+}

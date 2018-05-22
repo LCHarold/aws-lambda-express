@@ -1,0 +1,31 @@
+{
+  "name": "aws-lambda-express",
+  "version": "1.0.0",
+  "description": "Express for AWS Lambda",
+  "main": ".build/HttpHelper.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LCHarold/aws-lambda-express.git"
+  },
+  "author": "LCHarold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LCHarold/aws-lambda-express/issues"
+  },
+  "homepage": "https://github.com/LCHarold/aws-lambda-express#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "lodash": "latest",
+    "pipeworks": "latest"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.109",
+    "@types/node": "^10.1.2",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.8.3"
+  }
+}

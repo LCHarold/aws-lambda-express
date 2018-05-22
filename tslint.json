@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint:latest",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "max-line-length": false,
+    "member-ordering": false,
+    "no-bitwise": false,
+    "no-floating-promises": true,
+    "no-shadowed-variable": false,
+    "object-literal-sort-keys": false
+  },
+  "rulesDirectory": []
+}
