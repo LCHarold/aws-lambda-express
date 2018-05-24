@@ -9,5 +9,6 @@ node_modules
 #IDE
 **/.idea
 
-# ignore TypeScript build folder
-.build
+# generated JS files
+*.js
+*.js.map

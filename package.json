@@ -1,8 +1,9 @@
 {
   "name": "aws-lambda-express",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express for AWS Lambda",
-  "main": ".build/HttpHelper.js",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsc"
   },

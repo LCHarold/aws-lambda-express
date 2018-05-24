@@ -1,0 +1,10 @@
+**/example/
+**/.idea/
+# don't include the source typescript files
+*.ts
+# but DO include the type declaration files
+!*.d.ts
+*.js.map
+*.tgz
+tsconfig.json
+tslint.json
