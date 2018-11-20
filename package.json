@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-express",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express for AWS Lambda",
   "main": "index.js",
   "types": "index.d.ts",

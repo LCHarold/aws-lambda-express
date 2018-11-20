@@ -85,7 +85,6 @@ export function Response(request) {
             }, ''))
         };
 
-        console.log(`httpInternals: response: ${JSON.stringify(r)}`);
         return r;
     };
 
